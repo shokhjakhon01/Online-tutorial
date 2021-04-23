@@ -1,0 +1,366 @@
+@media(max-width:1200px){
+  .nav__list {
+    transform: translateX(200%);
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:50%;
+    height: 100%;
+    transition: 0.8s linear;
+    background: rgba(48,48,48,0.5);
+    backdrop-filter: blur(5px);
+    position:fixed;
+    top: 0;
+    right: 0;
+  }
+
+  .active{
+    transform: translateX(0px);
+    display: block;
+  }
+
+  .header__nav__link{
+    margin-right: 0;
+    
+    justify-content: start;
+  }
+
+  .menu__open{
+    display: block;
+    background: none;
+    color: white;
+    font-size: 30px;
+    border: none;
+  }
+
+  .menu__close{
+    display: block;
+    margin-left: 0;
+    left: 0;
+    z-index: 1;
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 5px;
+  }
+
+  .intro__info-parts{
+    flex-wrap: wrap;
+  }
+
+  .header__nav {
+    padding-top: 0;
+  }
+
+  .nav__right-link{
+    margin-top: 5px;
+  }
+}
+
+@media(max-width:992px){
+  .pros__info {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+  
+  .pros__info__left{
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .pros__info-right {
+    width: 100%;
+  }
+
+  .info-right__title{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .info-right__text{
+    text-align: justify;
+  }
+
+  .section__result__text {
+    margin: auto;
+  }
+
+  .section__result-intro{
+    margin: auto;
+  }
+
+  .section__result__statistics {
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .statistics__tools{
+    width: 50%;
+  }
+
+  .section__result{
+    padding-bottom: 100px;
+  }
+
+  .requiredEquipment__title {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  .section__requiredEquipment{
+    padding-bottom: 100px;
+  }
+
+  .brand__main {
+    flex-wrap: wrap;
+  }
+
+  .section__img__first::after{
+    display:none;
+  }
+
+ 
+}
+
+@media(max-width:768px){
+  .section__intro-title{
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .pros__info__left{
+    width: 100%;
+    height: 100%;
+  }
+
+  .pros__info-img{
+    width: 100%;
+  }
+
+  .teachers {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+
+  .teachers__biograph {
+    margin-bottom: 20px;
+  }
+
+  .programma__img{
+    margin-bottom: 30px;
+  }
+
+  .Equipment {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .requiredEquipment__title {
+    font-size: 35px;
+    margin-bottom: 70px;
+  }
+
+  .Equipment__parts {
+    margin-bottom: 20px;
+  }
+
+  .Equipment__parts-img{
+    margin-bottom: 40px;
+  }
+
+  .brand__intro {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .brand__imtro-title{
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+@media(max-width:576px){
+  .team {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 100px;
+  }
+
+  .team__img{
+    margin-right: 0;
+  }
+
+  .team__title{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .section__intro-title{
+    font-size: 35px;
+  }
+
+  .section__nums {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 100px;
+  }
+  .section__intro-div {
+    width: 45%;
+    height: 45%;
+    margin-right: 0;
+  }
+  .section__intro-div:nth-child(1){
+    margin-bottom: 5px;
+  }
+
+  .info-right__title{
+    font-size: 35px;
+  }
+
+  .info-right__text{
+    font-size: 14px;
+  }
+
+  .section__result-intro {
+    flex-direction: column;
+  }
+
+  .result-intro__title{
+    font-size: 35px;
+  }
+
+  .pros__info{
+    padding-bottom: 100px;
+  }
+
+  .section__result__text {
+    text-align: center;
+  }
+
+  .contact__link:last-child{
+    margin-right: 0;
+  }
+
+  .email {
+    padding-bottom: 30px;
+  }
+
+  .last__text{
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .last__title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .teachers {
+    padding-bottom: 60px;
+  }
+
+  .left__info__text{
+    font-size: 14px;
+  }
+
+  .right__info__text{
+    font-size: 14px;
+  }
+
+  .programma__title{
+    font-size: 35px;
+    text-align: center;
+  }
+  .programma__img{
+    margin-bottom: 20px;
+  }
+
+  .section__brand {
+    padding-bottom: 100px;
+  }
+
+  .main__section::after{
+    display: none;
+  }
+
+  .main__section {
+    width: 100%;
+  }
+
+  .brand__intro {
+    margin-bottom: 50px;
+  }
+
+  .section__requiredEquipment {
+    padding-bottom: 0px;
+  }
+
+  .statistics__tools__span{
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .section__result{
+    padding-bottom: 50px;
+  }
+
+  .section__result__statistics {
+    flex-direction: column;
+  }
+
+  .statistics__tools{
+    width: 100%;
+  }
+
+  .space1 {
+    margin-bottom: 20px;
+  }
+
+  .distance{
+    margin-bottom: 20px;
+  }
+
+  .statistics__tools__text{
+    text-align: justify;
+  }
+
+  .distance2{
+    margin-bottom: 20px;
+  }
+
+  .space2{
+    margin-bottom: 20px;
+  }
+
+  .distance3{
+    margin-bottom: 20px;
+  }
+
+  .space3{
+    margin-bottom: 20px;
+  }
+
+  .statistics__tools{
+    transition: transform 0.5s ease;
+    transform: translateX(200%);
+   display: none;
+  }
+
+  
+
+  .show{
+    transform: translateX(0%);
+    display: block;
+  }
+}
