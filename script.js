@@ -3,23 +3,6 @@ const ulList = document.querySelector('.nav__list')
 const menuClose = document.querySelector('.menu__close')
 const statistics = document.querySelectorAll('.statistics__tools')
 
-window.addEventListener('scroll',checkBoxes)
-
-checkBoxes()
-
-function checkBoxes() {
-  const triggerBottom = window.innerHeight / 5 * 4
-
-  statistics.forEach(stat=>{
-    const statTop = stat.getBoundingClientRect().top
-
-    if(statTop < triggerBottom){
-      stat.classList.add('show')
-    }else{
-      stat.classList.remove('show')
-    }
-  })
-}
 
 menuOpen.addEventListener('click', ()=>{
   ulList.classList.add('active')
